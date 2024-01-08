@@ -53,6 +53,10 @@ font-family: 'Salsa', cursive;
     padding-bottom: 40px;
     letter-spacing: 2px;
 }
+.bio-info{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
 
 @media (max-width: 910px) {
     .profile-data-left, .profile-more-right {
