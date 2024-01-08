@@ -9,6 +9,8 @@ font-family: 'Salsa', cursive;
 
 
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .home{
@@ -20,3 +22,19 @@ font-family: 'Salsa', cursive;
     display: flex;
     flex-wrap: wrap;
 }
+.profile-data-left{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 25%;
+}
+
+.profile-more-right{
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 75%;
+}
+@media (max-width: 700px) {
+    .profile-data-left, .profile-more-right {
+      flex: 100%;
+    }
+  }
