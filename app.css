@@ -54,13 +54,13 @@ font-family: 'Salsa', cursive;
     letter-spacing: 2px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 910px) {
     .profile-data-left, .profile-more-right {
       flex: 100%;
     }
     .profile-img{
         width: 30%;
-        margin-left: 30%;
+        margin-left: 35%;
         border: 2px solid white;
     }
 }
