@@ -42,6 +42,8 @@ font-family: 'Salsa', cursive;
 
 .title-name{
     text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Salsa', cursive;
 }
 @media (max-width: 800px) {
     .profile-data-left, .profile-more-right {
