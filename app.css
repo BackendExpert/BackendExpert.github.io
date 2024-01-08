@@ -1,4 +1,26 @@
-.home-body{
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald&family=Salsa&display=swap');
+
+/*
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Salsa', cursive;
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
     background-color: #18191A;
     color: white;
+}
+.data-row{
+    padding:10px 20px;
+}
+.profle-data{
+    background-color: aliceblue;
+    height: 100%;
+    background: transparent;
 }
