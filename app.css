@@ -9,18 +9,14 @@ font-family: 'Salsa', cursive;
 
 
 *{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 .home{
     background-color: #18191A;
     color: white;
+    font-family: 'Fjalla One', sans-serif;
 }
-.data-row{
-    padding:10px 20px;
-}
-.profle-data{
-    background-color: aliceblue;
-    height: 100%;
-    background: transparent;
+.grid-data{
+    display: flex;
+    flex-wrap: wrap;
 }
