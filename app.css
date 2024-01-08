@@ -57,6 +57,17 @@ font-family: 'Salsa', cursive;
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
+.social-link{
+    padding: 20px 90px;
+    list-style: none;
+}
+.social-link li{
+    padding: 20px 0;
+}
+.social-link li a{
+    text-decoration: none;
+    color: white;
+}
 
 @media (max-width: 910px) {
     .profile-data-left, .profile-more-right {
