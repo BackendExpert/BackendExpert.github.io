@@ -44,13 +44,14 @@ font-family: 'Salsa', cursive;
     text-align: center;
     letter-spacing: 3px;
     font-family: 'Salsa', cursive;
-    padding-bottom: 40px;
+    padding-bottom: 1px;
 }
 .sub-name{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
-    padding-top: 30px;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
 }
 
 @media (max-width: 800px) {
