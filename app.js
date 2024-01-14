@@ -38,7 +38,8 @@ fetch("https://api.github.com/orgs/JKCSS-CSS-Framework")
     var jkcss = document.getElementById('gitResultOrg');
     let alljkcss = `
         <div class='jkcss'>
-            <h1>Organization: ${jkcssdata.login}</h1>
+            <h1>Organization: ${jkcssdata.name}</h1><br>
+            <h3>Bio: ${jkcssdata.description}</h3>
         </div>
     `;
 
