@@ -41,6 +41,11 @@ fetch("https://api.github.com/orgs/JKCSS-CSS-Framework")
             <h1>Organization: ${jkcssdata.name}</h1><br>
             <h3>Bio: ${jkcssdata.description}</h3>
             <h3>Public Repositories: ${jkcssdata.public_repos}</h3>
+            <h3>Followers: ${jkcssdata.followers}</h3>
+            <h3>Blog: <a href='${jkcssdata.blog}' target='_blank' style='text-decoration: none; color:rgb(49, 58, 184);'>${jkcssdata.login}</a></h3>
+            <br><br>
+
+            <h4>For More Info: <a href='${jkcssdata.html_url}' target='_blank' style='text-decoration: none; color:rgb(49, 58, 184);'>${jkcssdata.login}</a></h4>
         </div>
     `;
 
