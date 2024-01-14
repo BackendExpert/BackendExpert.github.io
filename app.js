@@ -1,6 +1,6 @@
-fetch("https://api.github.com/users/" + oname)
+fetch("https://api.github.com/users/BackendExpert")
 .then((result) => result.json())
 .then((data) => {
-    
+
 
 })
