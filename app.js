@@ -4,10 +4,10 @@ fetch("https://api.github.com/users/BackendExpert")
 
     document.getElementById("gitResult").innerHTML = `
         <div class='row'>
-            <div class='col-lg-6'>
+            <div class='bk'>
             sss
             </div>
-            <div class='col-lg-6'>
+            <div class='jk'>
             sss
             </div>
         </div>

@@ -71,20 +71,10 @@ font-family: 'Salsa', cursive;
 .about-me{
     line-height: 35px;
 }
-.git-accounts{
-    display: flex;
-    flex-wrap: wrap;
-}
 .git-accounts .bk{
-    background-color: #18191A;
-    padding: 40px 30px;
-    flex: 50%;
-}
-
-.git-accounts .jk{
-    background-color: #18191A;
-    padding: 40px 30px;
-    flex: 50%;
+    background-color: rgb(255, 208, 0);
+    padding: 40px 20px;
+    color: black;
 }
 
 @media (max-width: 910px) {
