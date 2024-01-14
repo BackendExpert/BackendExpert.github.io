@@ -71,6 +71,22 @@ font-family: 'Salsa', cursive;
 .about-me{
     line-height: 35px;
 }
+.git-accounts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.git-accounts .bk{
+    background-color: #18191A;
+    padding: 40px 30px;
+    flex: 50%;
+}
+
+.git-accounts .jk{
+    background-color: #18191A;
+    padding: 40px 30px;
+    flex: 50%;
+}
+
 @media (max-width: 910px) {
     .profile-data-left, .profile-more-right {
       flex: 100%;
