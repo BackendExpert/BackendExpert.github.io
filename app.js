@@ -5,7 +5,8 @@ fetch("https://api.github.com/users/BackendExpert")
     document.getElementById("gitResult").innerHTML = `
         <div class='row'>
             <div class='bk'>
-            sss
+                <h1>Username: ${data.login}</h1><br>
+                <h3>Bio: ${data.bio}</h3>
             </div>
             <div class='jk'>
             sss
