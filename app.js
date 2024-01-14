@@ -40,6 +40,7 @@ fetch("https://api.github.com/orgs/JKCSS-CSS-Framework")
         <div class='jkcss'>
             <h1>Organization: ${jkcssdata.name}</h1><br>
             <h3>Bio: ${jkcssdata.description}</h3>
+            <h3>Public Repositories: ${jkcssdata.public_repos}</h3>
         </div>
     `;
 
