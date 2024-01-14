@@ -10,7 +10,7 @@ fetch("https://api.github.com/users/BackendExpert")
                 <h3>Public Repositories: ${data.public_repos}</h3>
                 <h3>Followers: ${data.followers}</h3>
                 <br><br>
-                <h4>for More Info: <a href='${data.html_url}' target='_blank' style='text-decoration: none; color:rgb(49, 58, 184);'>${data.login}</a></h4>
+                <h4>For More Info: <a href='${data.html_url}' target='_blank' style='text-decoration: none; color:rgb(49, 58, 184);'>${data.login}</a></h4>
             </div>
             <div class='jk'>
             sss
