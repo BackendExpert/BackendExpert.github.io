@@ -30,3 +30,14 @@ fetch("https://api.github.com/users/jehankandy")
             </div>`
     jkData.innerHTML = allJK;
 })
+
+fetch("https://api.github.com/users/jehankandy")
+.then((jkresult) => jkresult.json())
+.then((jkdata) => {
+
+    var jkcss = document.getElementById('gitResultOrg');
+    let alljkcss = ``;
+
+    jkcss.innerHTML = alljkcss;
+
+})
