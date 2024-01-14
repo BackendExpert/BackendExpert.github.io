@@ -75,6 +75,8 @@ font-family: 'Salsa', cursive;
     background-color: rgb(255, 208, 0);
     padding: 40px 20px;
     color: black;
+    border-radius: 10px;
+
 }
 
 @media (max-width: 910px) {
