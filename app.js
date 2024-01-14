@@ -36,7 +36,11 @@ fetch("https://api.github.com/users/jehankandy")
 .then((jkdata) => {
 
     var jkcss = document.getElementById('gitResultOrg');
-    let alljkcss = ``;
+    let alljkcss = `
+        <div class='jkcss'>
+        
+        </div>
+    `;
 
     jkcss.innerHTML = alljkcss;
 
