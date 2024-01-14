@@ -31,14 +31,14 @@ fetch("https://api.github.com/users/jehankandy")
     jkData.innerHTML = allJK;
 })
 
-fetch("https://api.github.com/users/jehankandy")
-.then((jkresult) => jkresult.json())
-.then((jkdata) => {
+fetch("https://api.github.com/orgs/JKCSS-CSS-Framework")
+.then((jkcssresult) => jkcssresult.json())
+.then((jkcssdata) => {
 
     var jkcss = document.getElementById('gitResultOrg');
     let alljkcss = `
         <div class='jkcss'>
-        
+            <h1>Organization: ${jkcssdata.login}</h1>
         </div>
     `;
 
